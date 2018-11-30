@@ -42,5 +42,5 @@ class PIX2MIDIConverter():
         return length * 4
 
 if __name__ == "__main__":
-    converter = PIX2MIDIConverter("song.png")
-    converter.buildMidi("song.mid")
+    converter = PIX2MIDIConverter("output0-0.png")
+    converter.buildMidi("output0-0.mid")
